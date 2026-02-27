@@ -20,12 +20,23 @@ const projects = [
     url: "https://xdc7-css.github.io/my-top3-movies/",
     img: "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQcrxeqIIcFKB302jZz6RRwAutv_Ics5OvfmaIlOiv4l4NSnrJFVQjakXjRLIZlTuulAPhfzX2NMZD0EJIiUyl8VnFiYKtMlRnhLiqt6tnwSWJzxe4REcuoQgRME4sVfAb7mVBkGpgZkTYEPFERl5WPVBxxA.jpg?r=f2e",
   },
-  {
-    title: "CAF CAFE",
-    desc: "Premium coffee shop brand website",
-    url: "https://xdc7-css.github.io/CAF-CAFE/",
-    img: "/caf_cafe.png", // local image from public/
-  },
+{
+  title: "CAF CAFE",
+  desc: "Premium coffee shop brand website",
+  url: "https://xdc7-css.github.io/CAF-CAFE/",
+  img: `${import.meta.env.BASE_URL}caf_cafe.png`,
+},
+
+
+
+
+
+
+
+
+
+
+  
 ];
 
 export default function Projects() {
