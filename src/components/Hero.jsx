@@ -73,7 +73,7 @@ export default function Hero() {
         <div className="p-6">
           <div className="glass-card p-6 flex flex-col items-center justify-center">
            <img
-  src="/avatar.png"
+  src={`${import.meta.env.BASE_URL}avatar.png`}
   alt="avatar"
   className="w-40 h-70 rounded-full border-4 border-white/6 object-contain"
 />
