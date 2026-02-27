@@ -1,21 +1,22 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const BASE = import.meta.env.BASE_URL;
 
-  const skills = [
-  { name: "React", icon: "/icons/react.svg", progress: 85 },
-  { name: "JavaScript", icon: "/icons/brand-javascript.svg", progress: 75 },
-  { name: "Tailwind", icon: "/icons/tailwind-css.svg", progress: 90 },
-  { name: "Python", icon: "/icons/python-fill.svg", progress: 55 },
-  { name: "Arduino", icon: "/icons/arduino.svg", progress: 65 },
-  { name: "Adobe Illustrator", icon: "/icons/adobe-illustrator.svg", progress: 75 },
-  { name: "Adobe Photoshop", icon: "/icons/adobe-photoshop.svg", progress: 60 },
-  { name: "C++", icon: "/icons/language-cpp.svg", progress: 80 },
-  { name: "HTML5", icon: "/icons/html-five2.svg", progress: 85 },
-  { name: "VHDL", icon: "/icons/vhdl.svg", progress: 70 },
-  { name: "SQL", icon: "/icons/sqlite-editor.svg", progress: 70 },
-  { name: "MS Access", icon: "/icons/microsoft-access.svg", progress: 50 },
-  { name: "MS PowerPoint", icon: "/icons/microsoft-project.svg", progress: 85 },
+const skills = [
+  { name: "React", icon: `${BASE}icons/react.svg`, progress: 85 },
+  { name: "JavaScript", icon: `${BASE}icons/brand-javascript.svg`, progress: 75 },
+  { name: "Tailwind", icon: `${BASE}icons/tailwind-css.svg`, progress: 90 },
+  { name: "Python", icon: `${BASE}icons/python-fill.svg`, progress: 55 },
+  { name: "Arduino", icon: `${BASE}icons/arduino.svg`, progress: 65 },
+  { name: "Adobe Illustrator", icon: `${BASE}icons/adobe-illustrator.svg`, progress: 75 },
+  { name: "Adobe Photoshop", icon: `${BASE}icons/adobe-photoshop.svg`, progress: 60 },
+  { name: "C++", icon: `${BASE}icons/language-cpp.svg`, progress: 80 },
+  { name: "HTML5", icon: `${BASE}icons/html-five2.svg`, progress: 85 },
+  { name: "VHDL", icon: `${BASE}icons/vhdl.svg`, progress: 70 },
+  { name: "SQL", icon: `${BASE}icons/sqlite-editor.svg`, progress: 70 },
+  { name: "MS Access", icon: `${BASE}icons/microsoft-access.svg`, progress: 50 },
+  { name: "MS PowerPoint", icon: `${BASE}icons/microsoft-project.svg`, progress: 85 },
 ];
 
 export default function Skills() {
